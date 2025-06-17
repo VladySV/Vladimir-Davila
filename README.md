@@ -101,9 +101,9 @@ Welcome to my portfolio! I'm a passionate Unity developer with 2+ years of exper
 
 ## 🌐 Connect With Me
 
-📧 **Email:** [your-email@example.com]
-💼 **LinkedIn:** [Your LinkedIn Profile]
-🐙 **GitHub:** [Your GitHub Profile]
+📧 **Email:** vladimir.d.garay@gmail.com
+💼 **LinkedIn:** www.linkedin.com/in/adrián-vladimir-dávila-garay-995176178
+🐙 **GitHub:** https://github.com/VladySV
 
 ---
 
