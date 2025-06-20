@@ -254,6 +254,37 @@
             color: var(--text-light);
             text-align: center;
         }
+
+        .carousel-inner img {
+            object-fit: cover;
+            height: 400px;
+        }
+        
+        .carousel-control-prev-icon,
+        .carousel-control-next-icon {
+            filter: invert(1);
+            background-size: 1.5rem;
+        }
+
+        #hero { height: 100vh; position: relative; }
+#hero video { object-fit: cover; height: 100%; width: 100%; }
+.hero-overlay { background: rgba(0,0,0,0.5); }
+.animate-typing {
+  border-right: .15em solid white;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 3s steps(30), blink .75s step-end infinite;
+}
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+@keyframes blink {
+  from, to { border-color: transparent; }
+  50% { border-color: white; }
+}
+
+
     </style>
 </head>
 <body>
@@ -558,6 +589,49 @@
                 </div>
             </div>
         </div>
+        <!-- Carrusel de Imágenes -->
+<div class="my-5">
+    <h2 class="section-title fade-in">Galería de Imágenes</h2>
+    <div id="portfolioCarousel" class="carousel slide carousel-dark" data-bs-ride="carousel">
+        <div class="carousel-inner rounded-4 shadow">
+            <div class="carousel-item active">
+                <img src="assets/images/screenshots/Imagen1.png" class="d-block w-100" alt="Imagen 1">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/images/screenshots/Imagen2.png" class="d-block w-100" alt="Imagen 2">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/images/screenshots/Imagen3.png" class="d-block w-100" alt="Imagen 3">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/images/screenshots/Imagen4.png" class="d-block w-100" alt="Imagen 4">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/images/screenshots/ImagenMonta1.png" class="d-block w-100" alt="Imagen 5">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/images/screenshots/ImagenMonta2.png" class="d-block w-100" alt="Imagen 6">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/images/screenshots/ImagenMonta3.png" class="d-block w-100" alt="Imagen 7">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/images/screenshots/Trailer1.png" class="d-block w-100" alt="Imagen 8">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/images/screenshots/Trailer2.png" class="d-block w-100" alt="Imagen 9">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon bg-dark rounded-circle p-2" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon bg-dark rounded-circle p-2" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
+    </div>
+</div>
     </section>
 
     <!-- Skills Section -->
